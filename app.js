@@ -103,15 +103,25 @@
 
 // N7
 
-{
-    const isPalindrome = (key) => {
-        const str = String(key);
-        return str === str.split('').reverse().join('');
-    };
+// {
+//     const isPalindrome = (key) => {
+//         const str = String(key);
+//         return str === str.split('').reverse().join('');
+//     };
+//     console.log(isPalindrome("radar"));
+//     console.log(isPalindrome(12321));
+//     console.log(isPalindrome("hello"));
+//     console.log(isPalindrome(12345));
+// }
 
-    console.log(isPalindrome("radar"));
-    console.log(isPalindrome(12321));
-    console.log(isPalindrome("hello"));
-    console.log(isPalindrome(12345));
 
-}
+
+// N8
+// {
+//     const obj = { a: 1, b: 22 }
+//     const res = Object.values(obj).reduce((acc, value) => acc + value, 0)
+//     console.log(`${res}`);
+
+//     const dig = String(res).split('').reduce((acc, dig) => acc + Number(dig), 0)
+//     console.log(`${dig}`);
+// }
