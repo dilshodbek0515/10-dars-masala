@@ -125,3 +125,63 @@
 //     const dig = String(res).split('').reduce((acc, dig) => acc + Number(dig), 0)
 //     console.log(`${dig}`);
 // }
+    
+
+// N9
+
+// {
+//     const getInitialOdds = (n) => {
+//         const arrayYaratish = [];
+//         let number = 1;
+//         while (arrayYaratish.length < n){
+//             arrayYaratish.push(number);
+//             number += 2;
+//         }
+//         return arrayYaratish;
+//     }
+//     const resalt = getInitialOdds(3);
+//     console.log(resalt);
+// }
+
+
+// N10
+
+// {
+//     var mergeTwoLists = function (list1, list2) {
+//         const yoyish = [...list1, ...list2];
+//         const sortEl = yoyish.sort((a, b) => a - b);
+//         return yoyish;
+//     };
+//     const result = mergeTwoLists([1, 2, 4], [1, 3, 4]);
+//     console.log(result);
+// }
+
+
+// N11
+
+// {
+//     const getDuplicates = (arr) => {
+//         const itemCounts = {};
+
+//         for (let item of arr) {
+//             if (itemCounts[item]) {
+//                 itemCounts[item]++;
+//             } else {
+//                 itemCounts[item] = 1;
+//             }
+//         }
+
+//         const duplicates = [];
+
+//         for (let item in itemCounts) {
+//             if (itemCounts[item] > 1) {
+//                 duplicates.push(item);
+//             }
+//         }
+
+//         return duplicates;
+//     };
+
+//     const result = getDuplicates([1, 2, 3, 4, 2, 5, 1, 6, 3]);
+//     console.log(result);
+// }
