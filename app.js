@@ -48,3 +48,17 @@
 //     console.log(getLevel(4));
 //     console.log(getLevel(5));
 // }
+
+
+
+// N4
+
+// {
+//     const calc = (number) => {
+//         return Number(number)
+//     }
+//     const number1 = calc(prompt("Enter your number 1"))
+//     const number2 = calc(prompt("Enter your number 2"))
+//     console.log(number1 + number2);
+
+// }
