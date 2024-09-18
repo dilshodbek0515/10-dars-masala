@@ -62,3 +62,37 @@
 //     console.log(number1 + number2);
 
 // }
+
+
+// N5
+
+// {
+//     const res = (numbers) => {
+//         return Number(numbers)
+//     }
+
+//     const number1 = res(1)
+//     const number2 = res(22)
+//     const number3 = res(3)
+//     const result1 = (number1.toString().split("").join(","))
+//     const result2 = (number2.toString().split("").join(","))
+//     const result3 = (number3.toString().split("").join(","))
+//     console.log(number1 + number2 + number3);
+//     console.log(result1, result2, result3);
+
+// }
+
+{
+    const res = (numbers) => {
+        return Number(numbers);
+    }
+    const number1 = res(1);
+    const number2 = res(22);
+    const number3 = res(3);
+
+    const sum = number1 + number2 + number3;
+    const result = sum.toString().split("").join(",");
+
+    console.log(sum);
+    console.log(result);
+}
