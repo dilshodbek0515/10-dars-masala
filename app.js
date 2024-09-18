@@ -82,17 +82,36 @@
 
 // }
 
+
+// N6
+
+// {
+//     const res = (numbers) => {
+//         return Number(numbers);
+//     }
+//     const number1 = res(1);
+//     const number2 = res(22);
+//     const number3 = res(3);
+
+//     const sum = number1 + number2 + number3;
+//     const result = sum.toString().split("").join(",");
+
+//     console.log(sum);
+//     console.log(result);
+// }
+
+
+// N7
+
 {
-    const res = (numbers) => {
-        return Number(numbers);
-    }
-    const number1 = res(1);
-    const number2 = res(22);
-    const number3 = res(3);
+    const isPalindrome = (key) => {
+        const str = String(key);
+        return str === str.split('').reverse().join('');
+    };
 
-    const sum = number1 + number2 + number3;
-    const result = sum.toString().split("").join(",");
+    console.log(isPalindrome("radar"));
+    console.log(isPalindrome(12321));
+    console.log(isPalindrome("hello"));
+    console.log(isPalindrome(12345));
 
-    console.log(sum);
-    console.log(result);
 }
